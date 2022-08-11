@@ -96,6 +96,10 @@ main{
 }
 .trend p{
     margin-left: 20px;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+
 }
 .trend img{
     width: 20px;
@@ -109,25 +113,44 @@ main{
 .tf-1{
     display: flex;
     /* background-color: antiquewhite; */
-    justify-content: space-between;
+    /* justify-content: space-between; */
+}
+.tf-1-left p{
+    font-weight: 700;
+    color: rgba(230, 230, 230, 1);
+    font-size: 30px;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 }
 .tf-1-container{
+    margin-right: 100px;
     display: flex;
 }
+.tf-1-right div:nth-child(3) p{
+    font-size: 12px;
+}
 .tf-1-right{
+    max-width: 350px;
     margin-left: 20px;
     display: flex;
     flex-direction: column;
 }
+.tf-1-right h3{
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
 .tf-1-r-1{
     display: flex;
     margin-bottom: 15px;
+    align-items: center;
 }
 .tf-1-r-1 img{
     border: 0px;
     border-radius: 50px;
 }
 .tf-1-r-1 p{
+    font-size: 13px;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin-left: 10px;
 }
 .tf-1-right h3{
@@ -139,7 +162,7 @@ main{
     margin-top: 30px;
     display: flex;
     /* background-color: antiquewhite; */
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 .s-2{
     height: 300px;
@@ -180,7 +203,11 @@ main{
     
 }
 .s-3-l-l-user p{
-    margin-top: 5px;
+    /* margin-top: 5px; */
+}
+.s-3-l-left h2{
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
 }
 .s-3-l-left h2{
     margin-bottom: 10px;
